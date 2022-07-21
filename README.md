@@ -4,29 +4,7 @@ Overview of the school district analysis:
 
 The concept of this analysis was to discover the general passing rates of students in the data sets. We likewise need to be able to use various tools in the pandas library to be able to sort data and collect data that I want to see.
 Results:
-How is the district summary affected?
+ This project examines data on high school performance and spending. The data supplied it can specify Fundings per school and per student, and the average math, reading, and general. Utilizing these numbers, we can sort our data and make observations on the type of school and part of spending and its influence on the student’s performance.
+We can analyze 15 schools with a total calculation of students of 39,170, and total funding of 24 Million. The results show that the average rates for these students exist between 75 percent to 82 percent. By employing the sorting methods, the data results show that the charter schools exceeded the district schools; district schools also contained a slightly less budget per student. Comparing the schools by grade level did not reveal a substantial change in performance. The Scores by the district showed that the budget of 630 to 650 performed the highest, actually higher than the over 650 budget class, indicating that an extreme budget is not always needed. The school size did not show a highly significant impact on performance as well. One of the biggest take away from this data is that the charter school had much higher performance, almost 30 to 40 percent better. The date results can be leveraged to investigate the difference between charter and district schools and see why there is such a difference in performance.
 
-After examining the district summary, there existed no difference.
-How is the school summary affected?
-
-The passing rate for Thomas High School in PyCitySchools changes the general passing percentage by 0.3%.
-How does substituting the ninth graders’ math and reading scores influence Thomas High School’s performance comparable to the different schools?
-
-The whole data set does not vary the reading or math scores. The rationale for taking out the 9th graders scores was to notice if the school was not including some 9th graders scores to increase their standard. Nonetheless, examining the outcomes was comparable with or without their data, suggesting no information was being influenced.
-How does replacing the ninth-grade scores affect the following:
-
-The only distinction was the actuality that the scores for the 9th graders who attended Thomas High School evolve into NaN.
-Math and reading scores by grade
-
-for 9th graders, the scores are substituted with NaNs, but for the other data, it is the identical.
-Scores by school spending
-
-The numbers are nearly the same since the 9th graders are no longer a characteristic in my data set.
-Scores by school size
-
-The General Passing Percentage does not alter.
-Scores by school type
-
-The scores by the school type do not alter our data.
-Conclusion
-The final result can conclude that by substituting the scores of the 9th graders there is nothing questionable that can be seen from the data set. In the end, the values replaced with NaN's did not alter the data to be concerned.
+Overall, I appreciated the assignment because it stood as a real-world situation that I could comprehend and observe analysis in a meaningful way. The challenging part of the assignment was merging the data information into one data frame, as I had mislabeled columns, and it took a long time to finish. I even thought the binning was challenging to comprehend and took a bit of maneuvering to get any results. My other issue was the repository, the terminal would not merge, so I had a hard time and manually had to update my changes. Therefore, I had fewer commits on this assignment than others.
